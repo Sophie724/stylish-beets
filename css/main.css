@@ -3,7 +3,7 @@ html {
   font-family: "PT Serif", serif;
   background-color: #c9b5ab;
   line-height: 1.5;
-  font-size: 1.125rem;
+  font-size: .8rem;
   font-style: normal;
   font-weight: lighter;
 }
@@ -18,6 +18,7 @@ html {
 h1, h2 {
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
+  font-size: 1.5rem;
 }
 
 b, em, strong {
@@ -39,10 +40,10 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #3f1622
+  color: #3f1622;
 }
 
-.nav{
+.nav {
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   list-style-type: none;
