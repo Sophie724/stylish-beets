@@ -3,7 +3,9 @@ html {
   font-family: "PT Serif", serif;
   background-color: #c9b5ab;
   line-height: 1.5;
-  font-size: .8rem;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: lighter;
 }
 
 *, *::before, *::after {
@@ -32,12 +34,18 @@ b, em, strong {
 
 a {
   text-decoration: none;
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.125rem;
+  color: #8f2440;
 }
 
 a:hover {
   text-decoration: none;
+  color: #3f1622
+}
+
+.nav{
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+  list-style-type: none;
 }
 
 img {
@@ -52,4 +60,13 @@ img {
 .quote {
   font-style: italic;
   font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.bold-text {
+  font-weight: bolder;
+}
+
+main dl dt {
+  font-weight: bold;
 }
