@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   background-color: #c9b5ab;
   line-height: 1.5;
 }
@@ -12,27 +12,43 @@ html {
 /*font-family: 'PT Sans', sans-serif;
 font-family: 'PT Serif', serif;*/
 
-h1, h2{
-  font-family: 'PT Sans', sans-serif;
-  color: #3f1622
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
 }
 
-b,em, strong {
-    font-weight: normal;
+b, em, strong {
+  font-weight: normal;
 }
 
-.serving-size{
-  font-style:italic;
+.serving-size {
+  font-style: italic;
 }
 
-.list{
+.list {
   list-style-type: lower-greek;
+}
+
+a{
+text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+img{
+width: 100%;
 }
 
 /*
 .bold-text{
-  text-transform: bold;
 }
+
+
+/*
+
 
 .quote{
 }
