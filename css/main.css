@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: 'PT Serif', serif;
   background-color: #c9b5ab;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -16,6 +17,24 @@ h1, h2{
   color: #3f1622
 }
 
+b,em, strong {
+    font-weight: normal;
+}
+
+.serving-size{
+  font-style:italic;
+}
+
+.list{
+  list-style-type: lower-greek;
+}
+
+/*
 .bold-text{
   text-transform: bold;
 }
+
+.quote{
+}
+
+*/
