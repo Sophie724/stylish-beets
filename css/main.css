@@ -73,11 +73,11 @@ main dl dt {
   font-weight: bold;
 }
 
-.tag{
+.tag {
   list-style-type: circle;
 }
 
 .name {
   font-weight: normal;
-  font-size: .8rem
+  font-size: .8rem;
 }
